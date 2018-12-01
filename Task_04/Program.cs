@@ -8,7 +8,7 @@ namespace Task_04
         {
             // Да се напише програма, която преобразува десетично число в двоично.
 
-            Console.Write("Въведите число: ");
+            Console.Write("Въведeте число: ");
             int n = Int32.Parse(Console.ReadLine());
             string binary = Convert.ToString(n, 2);
             Console.WriteLine("Резултата е {0}", binary);

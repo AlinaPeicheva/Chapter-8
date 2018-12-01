@@ -8,7 +8,7 @@ namespace Task_12
         {
             // Да се напише програма, която преобразува арабските числа в римски.
             String result = "";
-            Console.Write("Въведите арабско число: ");
+            Console.Write("Въведeте арабско число: ");
             int i = Convert.ToInt32(Console.ReadLine());
             int thousands = i / 1000, hundreds = (i / 100) % 10, tens = (i / 10) % 10, ones = i % 10;
 

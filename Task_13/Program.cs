@@ -12,18 +12,18 @@ namespace Task_13
                3. Вводим D основу числа, которое хотим получить (в скобках указаны основы из которых нужно выбрать нужную) */
             int s, d;
             
-            Console.Write("Въведите N: ");
+            Console.Write("Въведeте N: ");
             string n = Console.ReadLine();
 
             do
             {
-                Console.Write("Въведите S (S == 2, 8, 10 or 16): ");
+                Console.Write("Въведeте S (S == 2, 8, 10 or 16): ");
                 s = Int32.Parse(Console.ReadLine());
             } while (s != 2 && s != 8 && s != 10 && s != 16);
 
             do
             {
-                Console.Write("Въведите D (D == 2, 8, 10 or 16): ");
+                Console.Write("Въведeте D (D == 2, 8, 10 or 16): ");
                 d = Int32.Parse(Console.ReadLine());
             } while (d != 2 && d != 8 && d != 10 && d != 16);
 

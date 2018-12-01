@@ -9,7 +9,7 @@ namespace Task_10
             // Да се напише програма, която преобразува двоично число в десетично по схемата на Хорнер.
             int deci = 0;
 
-            Console.Write("Въведите двоично число: ");
+            Console.Write("Въведeте двоично число: ");
             string binary = Console.ReadLine();
             int length = binary.Length;
             int power = length - 1;

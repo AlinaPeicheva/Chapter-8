@@ -9,7 +9,7 @@ namespace Task_11
         {
             // Да се напише програма, която преобразува римските числа в арабски.
             int result = 0;
-            Console.Write("Enter Roman number: ");
+            Console.Write("Въведите римско число: ");
             String s = Console.ReadLine();
             string[] chars = s.Select(c => c.ToString()).ToArray();
 
@@ -48,7 +48,7 @@ namespace Task_11
                 }
             }
 
-            Console.WriteLine("Arabic number is " + result);
+            Console.WriteLine("Арабско число: " + result);
         }
     }
 }

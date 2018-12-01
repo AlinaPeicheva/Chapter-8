@@ -7,9 +7,10 @@ namespace Task_05
         static void Main(string[] args)
         {
             // Да се напише програма, която преобразува двоично число в десетично.
-            Console.Write("Enter binary number: ");
+
+            Console.Write("Въведите двоично число: ");
             string binary = Console.ReadLine();
-            Console.WriteLine("{0} to decimal is {1}.",
+            Console.WriteLine("{0} в десетична е {1}.",
                 binary, Convert.ToInt64(binary, 2));
         }
     }

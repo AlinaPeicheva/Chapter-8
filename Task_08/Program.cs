@@ -7,9 +7,10 @@ namespace Task_08
         static void Main(string[] args)
         {
             // Да се напише програма, която преобразува шестнадесетично число в двоично.
-            Console.Write("Enter hexadecimal number: ");
+
+            Console.Write("Въведите шестнадесетично число : ");
             string hexa = Console.ReadLine();
-            Console.WriteLine("{0} to binary is {1}.",
+            Console.WriteLine("{0} в двоична е {1}.",
                 hexa, Convert.ToString(Convert.ToInt32(hexa, 16), 2));
         }
     }
